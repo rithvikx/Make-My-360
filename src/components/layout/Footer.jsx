@@ -10,7 +10,7 @@ const InstagramIcon = () => (
   </svg>
 );
 
-const NAV_LINKS = ['Home', 'Services', 'Industries', 'Portfolio', 'About', 'Contact'];
+const NAV_LINKS = ['Home', 'Services', 'Portfolio', 'About', 'Contact'];
 const SERVICE_LINKS = [
   '360° Virtual Tours',
   'Content Creation',

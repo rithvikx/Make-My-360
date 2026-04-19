@@ -167,9 +167,9 @@ export default function Hero() {
                 letterSpacing: '-0.035em',
                 minHeight: '2em',
               }}
-              aria-label="Let Customers Walk Into Your Business Before They Visit"
+              aria-label="Dive Into the Future with 360 Degree Virtual Tours"
             >
-              Let Customers Walk Into Your Business Before They Visit
+              Dive Into the Future with 360 Degree Virtual Tours
             </h1>
 
             {/* Subheadline */}
@@ -192,7 +192,7 @@ export default function Hero() {
                 className="btn-primary"
               >
                 <Play size={15} aria-hidden="true" />
-                Book Free Demo
+                Get a Quote
               </a>
               <Link
                 to="/portfolio"

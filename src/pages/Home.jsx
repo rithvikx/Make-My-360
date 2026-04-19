@@ -3,7 +3,6 @@ import Hero from '../components/sections/Hero';
 import TrustBar from '../components/sections/TrustBar';
 import WhyVirtualTours from '../components/sections/WhyVirtualTours';
 import ServicesSection from '../components/sections/Services';
-import IndustriesSection from '../components/sections/Industries';
 import Portfolio from '../components/sections/Portfolio';
 import HowItWorks from '../components/sections/HowItWorks';
 import WhyUs from '../components/sections/WhyUs';
@@ -27,7 +26,6 @@ export default function Home() {
         <TrustBar />
         <WhyVirtualTours />
         <ServicesSection />
-        <IndustriesSection />
         <Portfolio />
         <HowItWorks />
         <WhyUs />

@@ -5,7 +5,6 @@
  */
 import { createContext, useContext, useState, useCallback } from 'react';
 import { services as defaultServices } from '../data/services';
-import { industries as defaultIndustries } from '../data/industries';
 import { faqs as defaultFaqs } from '../data/faq';
 
 // ── Helpers ──────────────────────────────────────────────────────────────
@@ -52,7 +51,6 @@ const CMSContext = createContext(null);
 
 export function CMSProvider({ children }) {
   const [services, setServicesState] = useState(() => loadFromStorage('services', defaultServices));
-  const [industries, setIndustriesState] = useState(() => loadFromStorage('industries', defaultIndustries));
   const [portfolio, setPortfolioState] = useState(() => loadFromStorage('portfolio', defaultPortfolio));
   const [about, setAboutState] = useState(() => loadFromStorage('about', defaultAbout));
   const [faqs, setFaqsState] = useState(() => loadFromStorage('faqs', defaultFaqs));
@@ -62,15 +60,6 @@ export function CMSProvider({ children }) {
     setServicesState((prev) => {
       const next = typeof updater === 'function' ? updater(prev) : updater;
       saveToStorage('services', next);
-      return next;
-    });
-  }, []);
-
-  // ── Industries ──
-  const updateIndustries = useCallback((updater) => {
-    setIndustriesState((prev) => {
-      const next = typeof updater === 'function' ? updater(prev) : updater;
-      saveToStorage('industries', next);
       return next;
     });
   }, []);
@@ -106,7 +95,6 @@ export function CMSProvider({ children }) {
     <CMSContext.Provider
       value={{
         services, updateServices,
-        industries, updateIndustries,
         portfolio, updatePortfolio,
         about, updateAbout,
         faqs, updateFaqs,

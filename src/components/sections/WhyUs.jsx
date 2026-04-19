@@ -49,9 +49,9 @@ const CARDS = [
 ];
 
 const STATS = [
-  { target: 50, suffix: '+', label: 'Tours Delivered', accent: '#00E0FF' },
+  { target: 500, suffix: '+', label: 'Tours Delivered', accent: '#00E0FF' },
   { target: 5, suffix: '★', label: 'Google Rating', accent: '#FFB800' },
-  { target: 3, suffix: ' yrs', label: 'In Business', accent: '#00D47E' },
+  { target: 6, suffix: ' yrs', label: 'In Business', accent: '#00D47E' },
 ];
 
 export default function WhyUs() {

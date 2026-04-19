@@ -1,14 +1,13 @@
 import { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import {
-  LayoutDashboard, Layers, Building2, Image, Info,
+  LayoutDashboard, Layers, Image, Info,
   HelpCircle, LogOut, Menu, ExternalLink
 } from 'lucide-react';
 
 const NAV = [
   { icon: LayoutDashboard, label: 'Dashboard', to: '/admin' },
   { icon: Layers, label: 'Services', to: '/admin/services' },
-  { icon: Building2, label: 'Industries', to: '/admin/industries' },
   { icon: Image, label: 'Portfolio', to: '/admin/portfolio' },
   { icon: Info, label: 'About', to: '/admin/about' },
   { icon: HelpCircle, label: 'FAQ', to: '/admin/faq' },

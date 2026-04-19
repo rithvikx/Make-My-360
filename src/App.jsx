@@ -10,7 +10,6 @@ import { useSmoothScroll } from './hooks/useSmoothScroll';
 // Lazy load all pages
 const Home = lazy(() => import('./pages/Home'));
 const Services = lazy(() => import('./pages/Services'));
-const Industries = lazy(() => import('./pages/Industries'));
 const Portfolio = lazy(() => import('./pages/Portfolio'));
 const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
@@ -116,7 +115,6 @@ function AppInner() {
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<PageTransition><Home /></PageTransition>} />
             <Route path="/services" element={<PageTransition><Services /></PageTransition>} />
-            <Route path="/industries" element={<PageTransition><Industries /></PageTransition>} />
             <Route path="/portfolio" element={<PageTransition><Portfolio /></PageTransition>} />
             <Route path="/about" element={<PageTransition><About /></PageTransition>} />
             <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />

@@ -109,20 +109,6 @@ function ServiceCard({ service, isPrimary }) {
           ))}
         </ul>
 
-        {/* CTA link */}
-        <Link
-          to={service.href || '/contact'}
-          className="inline-flex items-center gap-2 font-dm font-semibold text-sm transition-all duration-200 group mt-auto w-fit"
-          style={{ color: accent }}
-          aria-label={service.cta}
-        >
-          {isPrimary ? 'Start with a Free Demo' : 'See Content Plans'}
-          <ArrowRight
-            size={15}
-            className="group-hover:translate-x-1.5 transition-transform duration-200"
-            aria-hidden="true"
-          />
-        </Link>
       </div>
     </motion.div>
   );

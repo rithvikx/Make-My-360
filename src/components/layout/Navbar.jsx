@@ -6,7 +6,6 @@ import { Menu, X, ArrowRight } from 'lucide-react';
 const NAV_LINKS = [
   { label: 'Home', to: '/' },
   { label: 'Services', to: '/services' },
-  { label: 'Industries', to: '/industries' },
   { label: 'Portfolio', to: '/portfolio' },
   { label: 'About', to: '/about' },
   { label: 'Contact', to: '/contact' },
@@ -92,9 +91,9 @@ export default function Navbar() {
             <Link
               to="/contact"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg border border-[rgba(0,224,255,0.4)] text-[#00E0FF] font-dm font-semibold text-sm transition-all duration-300 hover:bg-[rgba(0,224,255,0.08)] hover:shadow-[0_0_20px_rgba(0,224,255,0.2)] animate-pulse-glow"
-              aria-label="Book a free demo"
+              aria-label="Get a Quote"
             >
-              Book Demo
+              Get a Quote
               <ArrowRight size={14} className="group-hover:translate-x-1 transition-transform" aria-hidden="true" />
             </Link>
           </div>

@@ -93,10 +93,10 @@ export default function FinalCTA() {
         >
           <Link
             to="/contact"
-            aria-label="Book a free demo"
+            aria-label="Get a Quote"
             className="btn-primary text-base px-8 py-4"
           >
-            Book Free Demo
+            Get a Quote
             <ArrowRight size={16} aria-hidden="true" />
           </Link>
 

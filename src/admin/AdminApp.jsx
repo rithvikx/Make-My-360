@@ -7,7 +7,6 @@ import AdminLogin from './AdminLogin';
 import AdminLayout from './AdminLayout';
 import AdminDashboard from './pages/AdminDashboard';
 import AdminServices from './pages/AdminServices';
-import AdminIndustries from './pages/AdminIndustries';
 import AdminPortfolio from './pages/AdminPortfolio';
 import AdminAbout from './pages/AdminAbout';
 import AdminFAQ from './pages/AdminFAQ';
@@ -45,7 +44,6 @@ export default function AdminApp() {
                 <Routes>
                   <Route index element={<AdminDashboard />} />
                   <Route path="services" element={<AdminServices />} />
-                  <Route path="industries" element={<AdminIndustries />} />
                   <Route path="portfolio" element={<AdminPortfolio />} />
                   <Route path="about" element={<AdminAbout />} />
                   <Route path="faq" element={<AdminFAQ />} />

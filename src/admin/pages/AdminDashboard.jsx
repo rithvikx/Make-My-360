@@ -1,21 +1,19 @@
 import { Link } from 'react-router-dom';
-import { Layers, Building2, Image, Info, HelpCircle, ExternalLink } from 'lucide-react';
+import { Layers, Image, Info, HelpCircle, ExternalLink } from 'lucide-react';
 import { StatCard, C } from '../components/AdminUI';
 import { useCMS } from '../../context/CMSContext';
 
 export default function AdminDashboard() {
-  const { services, industries, portfolio, faqs } = useCMS();
+  const { services, portfolio, faqs } = useCMS();
 
   const stats = [
     { icon: Layers, label: 'Services', value: services.length, to: '/admin/services', accent: '#00E0FF' },
-    { icon: Building2, label: 'Industries', value: industries.length, to: '/admin/industries', accent: '#7C5CFF' },
     { icon: Image, label: 'Portfolio Items', value: portfolio.length, to: '/admin/portfolio', accent: '#00D47E' },
     { icon: HelpCircle, label: 'FAQ Items', value: faqs.length, to: '/admin/faq', accent: '#FFB800' },
   ];
 
   const sections = [
     { icon: Layers, label: 'Manage Services', desc: 'Add, edit or remove service offerings', to: '/admin/services', accent: '#00E0FF' },
-    { icon: Building2, label: 'Manage Industries', desc: 'Update which industries you serve', to: '/admin/industries', accent: '#7C5CFF' },
     { icon: Image, label: 'Manage Portfolio', desc: 'Showcase your best project work', to: '/admin/portfolio', accent: '#00D47E' },
     { icon: Info, label: 'Edit About Page', desc: 'Update story, headline and team stats', to: '/admin/about', accent: '#FF4D88' },
     { icon: HelpCircle, label: 'Manage FAQ', desc: 'Add frequently asked questions', to: '/admin/faq', accent: '#FFB800' },
