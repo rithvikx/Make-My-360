@@ -79,7 +79,7 @@ export default function WhyUs() {
             <SectionHeading
               label="Why Make My 360"
               title="Not Just Photos. A Tour That Sells."
-              subtitle="We're a dedicated 360° studio — not a photography side hustle. Every project gets a dedicated team, real cameras, and results you can measure."
+              subtitle="We're a dedicated 360° studio not a photography side hustle. Every project gets a dedicated team, real cameras, and results you can measure."
             />
 
             {/* Stat counters */}

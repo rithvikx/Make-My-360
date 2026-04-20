@@ -93,7 +93,7 @@ export default function WhyVirtualTours() {
             id="why-vt-heading"
             label="The Advantage"
             title="Why Smart Businesses Choose 360° Virtual Tours"
-            subtitle="The way customers discover businesses has changed. Virtual tours are no longer a luxury — they're the standard."
+            subtitle="The way customers discover businesses has changed. Virtual tours are no longer a luxury they're the standard."
             centered
           />
         </div>

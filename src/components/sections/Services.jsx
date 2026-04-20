@@ -162,7 +162,7 @@ export default function ServicesSection() {
           <SectionHeading
             label="What We Do"
             title={<>Two Powerful Services,<br />One Studio</>}
-            subtitle="From immersive virtual tours to scroll-stopping social content — we handle your entire digital presence."
+            subtitle="From immersive virtual tours to scroll-stopping social content we handle your entire digital presence."
             id="services-heading"
           />
         </div>

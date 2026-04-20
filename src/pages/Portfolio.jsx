@@ -16,7 +16,7 @@ export default function PortfolioPage() {
           <div className="section-container text-center">
             <SectionHeading
               label="Portfolio"
-              title="50+ Projects. Each One Unique."
+              title="500+ Projects. Each One Unique."
               subtitle="A selection of virtual tours and content we've built for Hyderabad businesses."
               centered
             />

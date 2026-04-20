@@ -42,7 +42,7 @@ const defaultAbout = {
     { value: 50, suffix: '+', label: 'Businesses Served' },
     { value: 5, suffix: ' Cities', label: 'Across Telangana' },
     { value: 100, suffix: '%', label: 'Client Retention' },
-    { value: 3, suffix: '+', label: 'Years of Experience' },
+    { value: 6, suffix: '+', label: 'Years of Experience' },
   ],
 };
 

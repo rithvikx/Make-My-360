@@ -18,7 +18,7 @@ export default function ServicesPage() {
             <SectionHeading
               label="Services"
               title="What We Build For You"
-              subtitle="From your first virtual tour to a monthly content engine — we handle the full digital presence."
+              subtitle="From your first virtual tour to a monthly content engine we handle the full digital presence."
               centered
             />
           </div>

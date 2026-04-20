@@ -173,7 +173,7 @@ export default function Navbar() {
                   className="btn-primary text-base"
                   aria-label="Book free demo"
                 >
-                  Book Free Demo
+                  Get a Quote
                   <ArrowRight size={16} aria-hidden="true" />
                 </Link>
               </motion.div>

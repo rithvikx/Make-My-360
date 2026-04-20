@@ -26,8 +26,8 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact | Make My 360 — Book a Free Virtual Tour Demo in Hyderabad</title>
-        <meta name="description" content="Book a free 360° virtual tour demo with Make My 360. Serving businesses across Hyderabad — Banjara Hills, Gachibowli, Kondapur, Secunderabad, Hitech City and more." />
+        <title>Contact | Make My 360 Book a Virtual Tour in Hyderabad</title>
+        <meta name="description" content="Book a 360° virtual tour with Make My 360. Serving businesses across Hyderabad — Banjara Hills, Gachibowli, Kondapur, Secunderabad, Hitech City and more." />
       </Helmet>
 
       <main role="main" className="pt-24">
@@ -36,8 +36,8 @@ export default function Contact() {
           <div className="section-container text-center">
             <SectionHeading
               label="Get In Touch"
-              title="Book Your Free Demo"
-              subtitle="We'll reach out within 24 hours to schedule your consultation — no commitment required."
+              title="Book Your Virtual Tour"
+              subtitle="We'll reach out within 24 hours to schedule your consultation no commitment required."
               centered
             />
           </div>

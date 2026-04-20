@@ -19,8 +19,8 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About | Make My 360 — Hyderabad's Virtual Tour Studio</title>
-        <meta name="description" content="Learn about Make My 360 — Hyderabad's premium 360° virtual tour studio. Our story, values, and the team behind Hyderabad's most trusted digital space studio." />
+        <title>About | Make My 360 Hyderabad's Virtual Tour Studio</title>
+        <meta name="description" content="Learn about Make My 360 Hyderabad's premium 360° virtual tour studio. Our story, values, and the team behind Hyderabad's most trusted digital space studio." />
       </Helmet>
 
       <main role="main" className="pt-24">
@@ -35,7 +35,7 @@ export default function About() {
             <SectionHeading
               label="About Us"
               title="We Make Spaces Come Alive Online"
-              subtitle="Make My 360 is Hyderabad's dedicated virtual tour studio — built to transform how local businesses present themselves to the world."
+              subtitle="Make My 360 is Hyderabad's dedicated virtual tour studio built to transform how local businesses present themselves to the world."
               centered
             />
           </div>
