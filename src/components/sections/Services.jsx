@@ -9,7 +9,7 @@ import { useCMS } from '../../context/CMSContext';
 /* ── Additional micro-services row beneath main cards ──────────── */
 const MICRO_SERVICES = [
   { icon: Camera, label: 'Product Photography', accent: '#00E0FF' },
-  { icon: Video, label: 'Drone Videography', accent: '#7C5CFF' },
+  { icon: Video, label: 'Drone Videography', accent: '#FFB800' },
   { icon: Globe, label: 'Google Street View', accent: '#00D47E' },
   { icon: BarChart3, label: 'Analytics & Reports', accent: '#FFB800' },
 ];
